@@ -2,7 +2,7 @@ from typing import Optional
 import re
 
 
-class UKPostcode:
+class UKPostcodeService:
     def __init__(self, input_postcode: str):
         self.input_postcode = input_postcode
 

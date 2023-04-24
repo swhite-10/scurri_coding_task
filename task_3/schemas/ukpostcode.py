@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field
 from typing import Optional
 
 
-class UKPostcodeService(BaseModel):
+class UKPostcodeSchema(BaseModel):
     input_postcode: str = Field(
         min_length=6,
         max_length=9
