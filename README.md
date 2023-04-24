@@ -1,4 +1,4 @@
-# Running the UK Postcode API Locally
+# Running the Task 3 API Locally
 To run the UK Postcode API locally, you will need to follow these steps:
 - Clone this repository to your local machine.
 - Navigate to the project directory.
