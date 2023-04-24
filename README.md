@@ -14,4 +14,4 @@ The documentation details the endpoint request and response formats.
 
 You can try out the API directly in the documentation by clicking on the endpoint and then clicking on the "Try it out" button. This will open a form where you can enter the postcode you want to validate or format.
 
-Similarly, you can use curl to interact with the API endpoint from the terminal: curl http://127.0.0.1:8000/?input_postcode=wc2n%204js
+Similarly, you can use curl to interact with the API endpoint from the terminal: curl http://localhost:8000/?input_postcode=wc2n%204js
