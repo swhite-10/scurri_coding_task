@@ -7,7 +7,7 @@ ukpostcode_router = APIRouter(tags=['UK Postcode Formatter and Validator'])
 
 
 @ukpostcode_router.get('/', response_model=UKPostcodeSchema)
-def endpoint(input_postcode: str = 'wc2n 4js') -> UKPostcodeSchema:
+def endpoint(input_postcode: str = 'wc2n4js') -> UKPostcodeSchema:
     """
     Endpoint for retrieving formatted UK postcode and validation check.
     """
